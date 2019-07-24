@@ -21,8 +21,8 @@
 {% else %}
 <link rel="stylesheet" type="text/css" href="{% static "wpadmin/css/wpadmin.css" %}" />
 <link rel="stylesheet" type="text/css" href="{% static "wpadmin/css/themes/default.css" %}" />
-{% endif %}{% endwith %}
 {% wpadmin_render_custom_style %}
+{% endif %}{% endwith %}
 {% block wpadmin_extrastyle %}{% endblock %}
 {# WP Admin end #}
 <script type="text/javascript">window.__admin_media_prefix__ = "{% filter escapejs %}{% static "admin/" %}{% endfilter %}";</script>
