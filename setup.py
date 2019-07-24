@@ -17,7 +17,7 @@ setup(
 ''' % (read('README.rst'), read('docs/changelog.rst')),
     author='Maciej Marczewski (barszcz)',
     author_email='maciej@marczewski.net.pl',
-    url = 'https://github.com/barszczmm/django-wpadmin',
+    url = 'https://github.com/Carlo1911/django-wpadmin',
     keywords = 'wordpress django admin',
     packages=find_packages(),
     include_package_data=True,

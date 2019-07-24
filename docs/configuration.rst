@@ -52,7 +52,7 @@ Creating custom menus
 
 By default Django WP Admin mimics Django admin page, so it does not add any custom menus on left or top of the page (you can see such default and simplest setting `here <http://django-wpadmin.dev.barszcz.info/staffpanel/>`_ (login: staff, password: staff)). If you want to add top or left menu (like those that can be seen `here <http://django-wpadmin.dev.barszcz.info/userpanel/>`_ (login: user, password: user)) then you have to create little more complicated setup.
 
-First create ``wp.py`` file in your project's folder (you can use `file from test project <https://github.com/barszczmm/django-wpadmin/blob/master/test_project/test_project/wp.py>`_ as starting template).
+First create ``wp.py`` file in your project's folder (you can use `file from test project <https://github.com/Carlo1911/django-wpadmin/blob/master/test_project/test_project/wp.py>`_ as starting template).
 
 Then create menu class which should inherit from ``wpadmin.menu.menus.Menu``::
 
@@ -139,5 +139,5 @@ All menu items must be instance of classes from ``wpadmin.menu.items``. Here are
     Special menu item to show "Welcome username" string with Gravatar and basic user options like logging out and changing password. Adding menu items to children property, setting url, title and description does not make sense for this menu item as it will be ignored when rendering.
 
 
-Please refer to test project's `wp.py <https://github.com/barszczmm/django-wpadmin/blob/master/test_project/test_project/wp.py>`_ file for more details and more complicated example.
+Please refer to test project's `wp.py <https://github.com/Carlo1911/django-wpadmin/blob/master/test_project/test_project/wp.py>`_ file for more details and more complicated example.
 

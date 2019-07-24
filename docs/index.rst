@@ -6,7 +6,7 @@ Django WP Admin
 `WordPress <http://wordpress.org/>`_ look and feel for `Django <http://www.djangoproject.com/>`_ administration panel.
 ----------------------------------------------------------------------------------------------------------------------
 
-.. image:: https://raw.github.com/barszczmm/django-wpadmin/master/docs/images/django-wpadmin.png
+.. image:: https://raw.github.com/Carlo1911/django-wpadmin/master/docs/images/django-wpadmin.png
 
 
 Features
@@ -35,7 +35,7 @@ Only version for current stable Django will have new features, but any pull requ
 
 Demo
 ----
-Try ``test_project`` `here <http://django-wpadmin.dev.barszcz.info>`_ or download `django-wpadmin <https://github.com/barszczmm/django-wpadmin>`_ from GitHub and run it on your own machine. ``test_project`` contains SQLite database file with prepopulated sample data.
+Try ``test_project`` `here <http://django-wpadmin.dev.barszcz.info>`_ or download `django-wpadmin <https://github.com/Carlo1911/django-wpadmin>`_ from GitHub and run it on your own machine. ``test_project`` contains SQLite database file with prepopulated sample data.
 
 
 Installation
@@ -48,7 +48,7 @@ Installation
 
 * Or from GitHub::
 
-    pip install git+https://github.com/barszczmm/django-wpadmin.git#egg=django-wpadmin
+    pip install git+https://github.com/Carlo1911/django-wpadmin.git#egg=django-wpadmin
 
 
 
@@ -80,7 +80,7 @@ Advanced topics
 Troubleshooting
 ---------------
 
-Please create an `issue on GitHub <https://github.com/barszczmm/django-wpadmin/issues>`_ if you have any problems or requests.
+Please create an `issue on GitHub <https://github.com/Carlo1911/django-wpadmin/issues>`_ if you have any problems or requests.
 
 
 Credits
