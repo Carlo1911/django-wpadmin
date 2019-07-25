@@ -3,7 +3,7 @@ Django WP Admin
 ===============
 
 ----------------------------------------------------------------------------------------------------------------------
-`WordPress <http://wordpress.org/>`_ look and feel for `Django <http://www.djangoproject.com/>`_ administration panel.
+`WordPress <http://wordpress.org/>`_ look and feel for `Django <http://www.djangoproject.com/>`_ 2.x administration panel.
 ----------------------------------------------------------------------------------------------------------------------
 
 .. image:: https://raw.github.com/Carlo1911/django-wpadmin/master/docs/images/django-wpadmin.png
